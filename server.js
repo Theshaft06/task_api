@@ -15,3 +15,9 @@ app.use(session({
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+// Code
+
+app.listen(6789, () => {
+    console.log("listening on port 6789");
+});
